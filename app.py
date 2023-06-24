@@ -119,7 +119,7 @@ def parse_and_get(html_text):
 
         elif 'photo' in classvals:
             thispost.type = 'photo'
-            photo_save(thispost)
+            #photo_save(thispost)
 
             if config.save_full_text:
                 #thispost.type = 'text'
